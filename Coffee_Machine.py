@@ -119,7 +119,7 @@ def resource_sufficient(choice_of_coffee, available_resources):
                     ingredient]
                 money_inserted -= change
                 resources["Money"] += money_inserted
-                print(f"Here is ${round(change, 2)} dollars in change.")
+                print(f"Here is \033[93m${round(change, 2)}\033[0m dollars in change.")
 
             else:
                 print("Sorry that's not enough money. Money refunded.")
