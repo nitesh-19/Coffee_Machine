@@ -1,5 +1,6 @@
 # Coffee_Machine
  Program of  Coffee Maker in Python
 
- ![image](https://github.com/nitesh-19/Coffee_Machine/assets/64160155/8650e9d8-27f6-4c1a-b342-bed55c179e9e)
+![image](https://github.com/nitesh-19/Coffee_Machine/assets/64160155/f8e3d56b-7341-4ac5-a24d-e020f8329532)
+
 
