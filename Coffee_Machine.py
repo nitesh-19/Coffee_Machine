@@ -6,8 +6,8 @@ import numpy as np
 
 # Resources currently available in the coffee machine
 resources = {
-    "Water": 1000,
-    "Milk": 50,
+    "Water": 5000,
+    "Milk": 2000,
     "Coffee": 500,
     "Money": 0.0,
 }
@@ -17,21 +17,21 @@ choices = [
         "ESPRESSO": {
             "Water": 100,
             "Milk": 60,
-            "Coffee": 95,
+            "Coffee": 20,
             "Money": 1.0,
         }},
     {
         "LATTE": {
-            "Water": 100,
-            "Milk": 20,
-            "Coffee": 5,
+            "Water": 80,
+            "Milk": 100,
+            "Coffee": 35,
             "Money": 2.0,
         }},
     {
         "CAPPUCCINO": {
-            "Water": 100,
-            "Milk": 20,
-            "Coffee": 5,
+            "Water": 50,
+            "Milk": 200,
+            "Coffee": 45,
             "Money": 2.5,
         }}]
 
