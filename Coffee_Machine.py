@@ -3,7 +3,7 @@
 # 'report' to print all the resources currently available in the coffee machine
 
 import numpy as np
-from logo import logo
+import logo
 # Resources currently available in the coffee machine
 resources = {
     "Water": 5000,
@@ -88,6 +88,7 @@ def make_coffee(choice_of_coffee):
             if resource == "Money":
                 continue
             resources[resource] -= choices[find_index(choice_of_coffee=choice_of_coffee)][choice_of_coffee][resource]
+        print(logo.coffee_cup)
         print(f"Here is your {choice_of_coffee.title()}. Enjoy!.")
 
     else:
@@ -136,7 +137,7 @@ def resource_sufficient(choice_of_coffee, available_resources):
 turn_off = 0
 
 while turn_off == 0:
-    print(logo)
+    print(logo.logo)
     choice = input("What would you like? (espresso/latte/cappuccino): ")
     if choice == "off":
         turn_off = 1
